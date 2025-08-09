@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+
+
+
+.back-button{
+
+    margin-top:10px;
+
+    background-color: black;
+	font-size:large;
+
+}
+
+
+.img_title_logo_bar{height:90px;width:94%;min-width:250px;}
+
+
+
+.clvrjublynot{
+
+    font-size: large;
+
+    font-family: 'Times New Roman';
+
+    font-size: 21px;
+
+    font-weight: 600;
+
+    color: #D4AF37;
+
+    font-style: italic;
+
+    outline:none; 
+
+    text-decoration: none;
+
+    
+
+}
+
+.visitor_management_top_title{
+
+    font-size:29px;
+
+    font-family:'Times New Roman';
+
+    font-weight:500;
+
+    color:#242526;
+
+}
+
+a:hover { text-decoration: none; }
+

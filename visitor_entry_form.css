@@ -1,0 +1,271 @@
+
+
+
+
+  .form-container {
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+    font-family: "Poppins", sans-serif;
+
+    min-height: 100vh;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+  }
+
+  form{
+
+    margin-top:20px;
+
+    padding: 20px;
+
+    max-width: 700px;
+
+    width: 100%;
+
+    background: #fff;
+
+    padding: 25px;
+
+    border-radius: 8px;
+
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);   
+
+}
+
+.form-header{
+
+  font-size: 1.5rem;
+
+  color: #333;
+
+  font-weight: 500;
+
+  text-align: center;
+
+
+
+}
+
+label {
+
+    color: #333;
+
+  }
+
+  .input-text-field {
+
+
+
+    height: 50px;
+
+    width: 100%;
+
+    outline: none;
+
+    font-size: 1rem;
+
+    color:#707070;
+
+    margin-top: 8px;
+
+    border: 1px solid #ddd;
+
+    border-radius: 6px;
+
+    padding: 0 15px;
+
+    
+
+  }
+
+  .form-container form {
+
+    margin-top: 30px;
+
+    margin-bottom:30px;
+
+}
+
+.radio{
+
+    cursor: pointer;
+
+}.select-field{    
+
+    height: 50px;
+
+    width: 100%;
+
+    outline: none;
+
+    font-size: 1rem;
+
+    color:#707070;
+
+    margin-top: 8px;
+
+    border: 1px solid #ddd;
+
+    border-radius: 6px;
+
+    padding: 0 15px;
+
+}
+
+.hide{
+
+    display:none;
+
+}
+
+
+
+.display{
+
+    display:block;
+
+}
+
+.button{
+
+    height: 55px;
+
+    width: 100%;
+
+    color: #fff;
+
+    font-size: 1rem;
+
+    font-weight: 400;
+
+    margin-top: 30px;
+
+    border: none;
+
+    cursor: pointer;
+
+    transition: all 0.2s ease;
+
+    background: rgb(130, 106, 251);
+
+    align-self: center;
+
+}
+
+.error-message {
+
+  color: #dc3545;
+
+  font-family: "Roboto";
+
+  font-size: 14px;
+
+}
+
+.success-message{
+
+  margin-top: 20px;
+
+  background-color:aquamarine;
+
+  text-align: center;
+
+  width:100%;
+
+  color:darkcyan;
+
+  font-family: "Roboto";
+
+  font-size: 14px;
+
+}
+
+.failed-message{
+
+  margin-top: 20px;
+
+  background-color:lightcoral;
+
+  text-align: center;
+
+  width:100%;
+
+  color:darkred;
+
+  font-family: "Roboto";
+
+  font-size: 14px;
+
+}
+
+::-webkit-file-upload-button{
+
+height:100%;
+
+width:180px;
+
+margin-left:0;
+
+border-top-left-radius: 6px;
+
+border-bottom-left-radius: 6px;
+
+}
+
+input[type="file"]{
+
+  padding-left:0;  
+
+}
+
+
+
+.image_capture_button{
+
+
+
+  height: 55px;
+
+    width: 180px;
+
+    color: #fff;
+
+    font-size: 1rem;
+
+    font-weight: 400;
+
+    margin-top: 30px;
+
+    border: none;
+
+    cursor: pointer;
+
+    transition: all 0.2s ease;
+
+    background: rgb(130, 106, 251);
+
+    align-self: center;
+
+
+
+}
+
+
+
+.showing_captured_image{
+
+  height:400px;
+
+  width:400px;
+
+}

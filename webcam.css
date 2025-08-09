@@ -1,0 +1,93 @@
+
+
+.container_of_objects{
+
+    
+
+    width:100vw;
+
+}
+
+
+
+@media(min-width:768px){
+
+    .container_of_objects{
+
+    width:768px;
+
+
+
+}
+
+}
+
+
+
+.capture_snap_container{
+
+    padding:0;
+
+    margin:0;
+
+    width:100%;
+
+    /*border:2px solid red;*/
+
+    display:flex;
+
+        flex-direction: column;
+
+        justify-content: center;
+
+}
+
+
+
+@media (min-width:760px){
+
+    .capture_snap_container{
+
+        width:100%;
+
+        display:flex;
+
+        flex-direction: row;
+
+        justify-content: center;
+
+    }
+
+}
+
+
+
+
+
+.button{
+
+    height: 55px;
+
+    width: 100%;
+
+    color: #fff;
+
+    font-size: 1rem;
+
+    font-weight: 600;
+
+    margin-top: 30px;
+
+    border: none;
+
+    cursor: pointer;
+
+    transition: all 0.2s ease;
+
+    background: rgb(130, 106, 251);
+
+    align-self: center;
+
+    font-size:26px;
+
+}
